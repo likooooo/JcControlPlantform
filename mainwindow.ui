@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HelloQtTitle</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menuBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(F)</string>
+    </property>
+    <addaction name="actionCreateSln"/>
+    <addaction name="actionOpenSln"/>
+    <addaction name="separator"/>
+    <addaction name="actionCreateProj"/>
+    <addaction name="actionOpenProj"/>
+   </widget>
+   <widget class="QMenu" name="menu_E">
+    <property name="title">
+     <string>编辑(E)</string>
+    </property>
+    <addaction name="actionFindAndReplace"/>
+    <addaction name="separator"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionzhantie"/>
+    <addaction name="actionDelete"/>
+   </widget>
+   <widget class="QMenu" name="menu_D">
+    <property name="title">
+     <string>调试(D)</string>
+    </property>
+    <addaction name="actionStartRun"/>
+   </widget>
+   <widget class="QMenu" name="menu_T">
+    <property name="title">
+     <string>工具(T)</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助(H)</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_E"/>
+   <addaction name="menu_D"/>
+   <addaction name="menu_T"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCreateSln">
+   <property name="text">
+    <string>新建解决方案(N)</string>
+   </property>
+  </action>
+  <action name="actionOpenSln">
+   <property name="text">
+    <string>打开解决方案(O)</string>
+   </property>
+  </action>
+  <action name="actionCreateProj">
+   <property name="text">
+    <string>新建项目(N)</string>
+   </property>
+  </action>
+  <action name="actionOpenProj">
+   <property name="text">
+    <string>打开项目(O)</string>
+   </property>
+  </action>
+  <action name="actionFindAndReplace">
+   <property name="text">
+    <string>查找和替换(F)</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>剪切(T)</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>复制(C)</string>
+   </property>
+  </action>
+  <action name="actionzhantie">
+   <property name="text">
+    <string>粘贴(V)</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>删除(D)</string>
+   </property>
+  </action>
+  <action name="actionStartRun">
+   <property name="text">
+    <string>开始调试(F5)</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>帮助(F1)</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>关于(A)</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
